@@ -7,10 +7,11 @@ node {
     }
     stage('build') {
         // lancement des commandes
-        sh '''javac Main.java'''
+        sh '''javac Main.java 
+	   '''
     }
     stage('run') {
-        sh '''java Main'
+        sh '''java Main'''
            
     }
 }
